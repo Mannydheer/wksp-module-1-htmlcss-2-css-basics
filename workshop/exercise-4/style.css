@@ -1,27 +1,50 @@
-#centered {
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.centered {
     text-align: center;
-}
-
-.title {
-    font-size: 3rem;
-}
-
-subtitle {
-    font-size: 1.5rem;
-}
-
-.div {
     background-color: gray;
+   
+    
+}
+#title {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+}
+
+#subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+ 
 }
 
 #li {
     list-style-type: none;
 }
 
-content {
+#content {
     text-decoration: underline;
+    background-color: gray;
+    
 }
 
-monospaced {
-    font-family: monospace;
+/* Make own h2 tag for font weight. */
+h2 {
+    font-weight: normal;
+    margin-top: 0px;
+    
 }
+ul {
+    list-style: none;
+}
+.monospaced {
+    font-family: monospace;
+    
+}
+
+

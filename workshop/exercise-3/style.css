@@ -1,1 +1,32 @@
 /* ...crickets... */
+
+
+ 
+/* This will apply margin 0 to all
+ * {
+    margin: 0;
+} */
+
+/* Apply the font family to the while body.  */
+body {
+    font-family: "Comic Sans MS";
+}
+
+.title {
+    text-align: center;
+    margin: 0px;
+    font-weight: normal;
+}
+
+
+.subtitle {
+    text-align: center;
+    margin: 0px;
+    
+}
+
+/* This will italicise, the class for SPAN tag.  */
+.emph {
+    font-style: italic;
+}
+
