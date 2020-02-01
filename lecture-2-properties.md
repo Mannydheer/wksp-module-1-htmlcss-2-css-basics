@@ -33,6 +33,9 @@ Write the CSS to make the cat text blue.
 ```css
 /* css here */
 
+p {
+
+}
 ```
 
 ---
@@ -50,6 +53,10 @@ Write the CSS to make the cat text blue.
 ```css
 /* css here */
 
+h2 {
+    color: blue;
+}
+
 ```
 
 ---
@@ -65,7 +72,9 @@ Write the CSS to make the cat text blue.
 
 ```css
 /* css here */
-
+.royalcat {
+  color: blue;
+}
 ```
 
 ---
@@ -83,6 +92,10 @@ Write the CSS to make the dogs text red.
 ```css
 /* css here */
 
+.canine {
+  color:red;
+}
+
 ```
 
 ---
@@ -99,7 +112,9 @@ Write the CSS to make the dogs text red.
 
 ```css
 /* css here */
-
+h1 {
+  color: red;
+}
 ```
 
 ---
@@ -107,6 +122,8 @@ Write the CSS to make the dogs text red.
 ### Exercise 6 [🐇](https://codepen.io)
 
 What color is the `p` element?
+
+Classes are higher in the hierarchy so they dominate. 
 
 `<p class="blue"> hello </p>`
 
@@ -185,6 +202,7 @@ We can fix this with the `box-sizing` CSS property.
 
 _What is the meaning of `*`?_
 
+Apply it to the whole code
 ---
 
 <img src='./assets/box_example.png' />
@@ -265,7 +283,7 @@ _What is the meaning of `*`?_
 - absolute
 
 ---
-
+--> Position property is to SET THE POSITION. Allows you to move things around. 
 ### `position: static`
 
 - It is not positioned in any special way; it is always positioned according to the normal flow of the page.
@@ -292,6 +310,7 @@ _What is the meaning of `*`?_
 
 - It is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
 - If an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+Position absolute will remove itself from the regular flow of the document. 
 
 Note: When using this property, you will need to set the parent's position as well, anything but `static`.
 

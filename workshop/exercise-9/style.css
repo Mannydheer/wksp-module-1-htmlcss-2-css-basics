@@ -3,18 +3,40 @@ img {
   }
   
   .img1 {
-  
+    /* Will move relative to its orginal position.  */
+    position: relative;
+    /* Specifies stack order. If I were to put
+    z-index on img-2, then it would overlap.  */
+    z-index: 1;
   }
   
   .img2 {
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
   
   }
   
   .img3 {
-  
+    /* this will fix the position. */
+    position: fixed;
+    top: 50%;
+    left: 50%;
   }
   
   .img4 {
+
+    /* Absolute will always look for th relative. 
+    once it does, it will base itself from that
+    so now, relative to image 1, I want it to be 0px away from the bottom and 
+    0 px away from the right.  */
+    position: absolute;
+    bottom: 0;
+    right: 0;
   
-  }
+}
   
